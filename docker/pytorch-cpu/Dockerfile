@@ -19,6 +19,7 @@ RUN apt-get update && \
     gcc \
     g++ \
     ninja-build \
+    default-libmysqlclient-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Installation de la version spécifique de huggingface_hub
